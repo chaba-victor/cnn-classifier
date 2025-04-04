@@ -20,26 +20,27 @@
 Clone the repository
 
 ```bash
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
+git clone https://github.com/chaba-victor/cnn-classifier.git
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a conda environment in your working repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n cnncl python=3.8 -y
 ```
 
 ```bash
-conda activate cnncls
+conda activate cnncl
 ```
 
 
 ### STEP 02- install the requirements
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ```bash
-# Finally run the following command
+# Run the project like so
 python app.py
 ```
 
@@ -49,38 +50,14 @@ open up you local host and port
 ```
 
 
-
-
-
-
 ## MLflow
 
 - [Documentation](https://mlflow.org/docs/latest/index.html)
 
-- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
 
-##### cmd
-- mlflow ui
 
 ### dagshub
 [dagshub](https://dagshub.com/)
-
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
-python script.py
-
-Run this to export as env variables:
-
-```bash
-
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
-
-export MLFLOW_TRACKING_USERNAME=entbappy 
-
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
-
-```
 
 
 ### DVC cmd
@@ -94,16 +71,16 @@ export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
 
 MLflow
 
- - Its Production Grade
- - Trace all of your expriements
- - Logging & taging your model
+ - Production Grade
+ - Track all of your expriements
+ - Logging & taging for your model
 
 
 DVC 
 
- - Its very lite weight for POC only
+ - lite weight for POC only
  - lite weight expriements tracker
- - It can perform Orchestration (Creating Pipelines)
+ - It can perform Orchestration 
 
 
 
@@ -140,7 +117,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/something
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
