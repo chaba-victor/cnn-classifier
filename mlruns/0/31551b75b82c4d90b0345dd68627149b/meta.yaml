@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/anyum/OneDrive/Desktop/src/pjcts/Done/cnn-classifier/mlruns/0/31551b75b82c4d90b0345dd68627149b/artifacts
+end_time: 1743927153845
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31551b75b82c4d90b0345dd68627149b
+run_name: fearless-trout-731
+run_uuid: 31551b75b82c4d90b0345dd68627149b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743927145266
+status: 4
+tags: []
+user_id: vic

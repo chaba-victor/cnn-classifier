@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/anyum/OneDrive/Desktop/src/pjcts/Done/cnn-classifier/mlruns/0/27d46e7b1d494606901ce91184486848/artifacts
+end_time: 1744055063751
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27d46e7b1d494606901ce91184486848
+run_name: gregarious-mule-268
+run_uuid: 27d46e7b1d494606901ce91184486848
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744055054220
+status: 4
+tags: []
+user_id: vic
